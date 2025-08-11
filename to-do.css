@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.continar {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.to-do {
+  border-radius: 20px;
+  text-align: center;
+  height: 450px;
+  width: 450px;
+  margin-bottom: 100px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 20px black;
+}
+
+.txt {
+  color: rgb(33, 33, 32);
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-family: "Playwrite AU QLD", cursive;
+}
+
+input {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  width: 290px;
+  height: 40px;
+  text-align: center;
+  font-family: "Playwrite AU QLD", cursive;
+}
+input:hover {
+  box-shadow: 0px 0px 5px white;
+}
+
+button {
+  width: 70px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(3, 149, 100);
+  font-family: "Playwrite AU QLD", cursive;
+}
+
+button:hover {
+  transform: scale(0.8);
+  box-shadow: 0px 0px 12px rgb(33, 38, 35);
+}
+
+.input-list {
+  font-family: "Playwrite AU QLD", cursive;
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: 10px;
+  
+}
+
+.task button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Delete button - red */
+.task button:nth-child(3) {
+  background-color: #e74c3c;
+}
+
+.task button:nth-child(3):hover {
+  background-color: #c0392b;
+  box-shadow: 0 0 8px #e74c3c;
+}
+
+/* Edit button - blue */
+.task button:nth-child(2) {
+  background-color: #3498db;
+}
+
+.task button:nth-child(2):hover {
+  background-color: #2980b9;
+  box-shadow: 0 0 8px #3498db;
+}
